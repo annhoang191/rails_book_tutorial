@@ -67,7 +67,7 @@ en:
       success: "Profile updated"
     index:
       heading: "All users"
-    delete:
+    destroy:
       success: "User deleted"
       fail: "User deleted unsuccessfully"
   sessions:
