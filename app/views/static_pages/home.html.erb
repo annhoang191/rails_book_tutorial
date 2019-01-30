@@ -2,5 +2,5 @@
 <div class="center jumbotron">
   <h1><%= t ".heading" %></h1>
   <h2><%= t ".description_html" %></h2>
-  <%= link_to "Sign up now!", new_user_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to "Sign up now!", new_user_path, class: "btn btn-lg btn-primary" unless logged_in? %>
 </div>

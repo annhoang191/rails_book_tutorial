@@ -1,22 +1,9 @@
 <% provide :title, t(".heading") %>
+<% provide :button_text, t(".create_account") %>
+
 <h1 class="text-center"><%= t ".heading" %></h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_for @user do |f| %>
-      <%= render "shared/error_messages" %>
-      <%= f.label t ".name" %>
-      <%= f.text_field :name, class: "form-control"  %>
-
-      <%= f.label t ".email" %>
-      <%= f.email_field :email, class: "form-control"  %>
-
-      <%= f.label t ".password" %>
-      <%= f.password_field :password, class: "form-control"  %>
-
-      <%= f.label t ".name" %>
-      <%= f.password_field :password_confirmation, class: "form-control" %>
-
-      <%= f.submit t(".create_account"), class: "btn btn-primary" %>
-    <% end %>
+    <%= render "form" %>
   </div>
 </div>
