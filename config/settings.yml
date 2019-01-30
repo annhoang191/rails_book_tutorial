@@ -7,5 +7,6 @@ user:
     minimum: 6
   profile_image:
     size: 80
+    size_50: 50
 session:
   remember_me_true: "1"

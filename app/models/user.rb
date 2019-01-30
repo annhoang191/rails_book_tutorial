@@ -9,7 +9,8 @@ class User < ApplicationRecord
 
   before_save :downcase_email
   has_secure_password
-  validates :password, presence: true, length: {minimum: Settings.user.password.minimum}
+  validates :password, presence: true,
+    length: {minimum: Settings.user.password.minimum}, allow_nil: true
 
 
   class << self

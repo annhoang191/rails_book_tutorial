@@ -45,15 +45,31 @@ en:
     error_messages:
       form_errors: "The form contains "
   users:
-    new:
-      heading: Sign up
-      confirmation: "Confirmation"
-      create_account: "Create my account"
+    require_login: "Please log in."
+    delete: "delete"
+    delete_confirm: "Are you sure?"
+    form:
       name: "name"
       email: "email"
       password: "password"
       password_confirmation: "password_confirmation"
+    new:
+      heading: Sign up
+      confirmation: "Confirmation"
+      create_account: "Create my account"
       success_signup: "Welcome to the Sample App!"
+    edit:
+      heading: "Edit user"
+      description: "Update your profile"
+      save: "Save changes"
+      change: "Change"
+    update:
+      success: "Profile updated"
+    index:
+      heading: "All users"
+    delete:
+      success: "User deleted"
+      fail: "User deleted unsuccessfully"
   sessions:
     new:
       heading: "Log in"
