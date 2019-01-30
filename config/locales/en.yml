@@ -5,6 +5,11 @@ en:
     home: "Home"
     help: "Help"
     log_in: "Log in"
+    users: "Users"
+    account: "Account"
+    profile: "Profile"
+    setting: "Setting"
+    logout: "Log out"
   footer:
     description_html: "  <small>The <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
       by <a href='http://www.michaelhartl.com/'>Michael Hartl</a>
@@ -48,3 +53,12 @@ en:
       email: "email"
       password: "password"
       password_confirmation: "password_confirmation"
+      success_signup: "Welcome to the Sample App!"
+  sessions:
+    new:
+      heading: "Log in"
+      new_user: "New user?"
+      signup_now: "Sign up now!"
+    create:
+      login_fail: "Invalid email/password combination"
+      success: "Welcome back to Sample App"
