@@ -36,6 +36,15 @@ en:
       heading: "Contact"
       description_html: "Contact the Ruby on Rails Tutorial about the sample app at the
         <a href='https://www.railstutorial.org/contact'>contact page</a>."
-    users:
-      new:
-        heading: Sign up
+  shared:
+    error_messages:
+      form_errors: "The form contains "
+  users:
+    new:
+      heading: Sign up
+      confirmation: "Confirmation"
+      create_account: "Create my account"
+      name: "name"
+      email: "email"
+      password: "password"
+      password_confirmation: "password_confirmation"
