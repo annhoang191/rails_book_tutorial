@@ -59,6 +59,7 @@ en:
       heading: "Log in"
       new_user: "New user?"
       signup_now: "Sign up now!"
+      remember_me: "Remember me on this computer"
     create:
       login_fail: "Invalid email/password combination"
       success: "Welcome back to Sample App"
