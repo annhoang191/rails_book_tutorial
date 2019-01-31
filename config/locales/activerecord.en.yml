@@ -1,0 +1,8 @@
+en:
+  activerecord:
+    errors:
+      models:
+        micropost:
+          picture_too_large: "should be less than 5MB"
+        user:
+          password_empty: "Password cannot be empty"

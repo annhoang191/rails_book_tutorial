@@ -17,6 +17,7 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
   host = "sample-app-tut.herokuapp.com"
   config.action_mailer.default_url_options = {host: host}
   ActionMailer::Base.smtp_settings = {
@@ -25,7 +26,7 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name      => ENV["GMAIL_USERNAME"],
     :password       => ENV["GMAIL_PASSWORD"],
-    :domain         => "heroku.com",
+    :domain         => "gmail.com",
     :enable_starttls_auto => true
   }
   if ENV["RAILS_LOG_TO_STDOUT"].present?
