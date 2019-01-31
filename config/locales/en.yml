@@ -58,6 +58,9 @@ en:
       confirmation: "Confirmation"
       create_account: "Create my account"
       success_signup: "Welcome to the Sample App!"
+    create:
+      check_email: "Please check your email to activate your account."
+      create_fail: "Created user unsuccessfully"
     edit:
       heading: "Edit user"
       description: "Update your profile"
@@ -79,3 +82,14 @@ en:
     create:
       login_fail: "Invalid email/password combination"
       success: "Welcome back to Sample App"
+      not_activate: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      activated_success: "Account activated!"
+      activated_unsuccess: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      description: "Hi %{name},"
+      description_2: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
