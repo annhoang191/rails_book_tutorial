@@ -1,5 +1,6 @@
 en:
   sample_app: "Ruby on Rails Tutorial Sample App"
+  require_log_in: "Please log in."
   header:
     app_name: "sample app"
     home: "Home"
@@ -93,3 +94,17 @@ en:
       description: "Hi %{name},"
       description_2: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+  microposts:
+    create:
+      success: "Created successfully"
+      fail: "Created unsuccessfully"
+    destroy:
+      deleted_success: "Deleted successfully"
+      deleted_fail: "Deleted unsuccessfully"
+  password_resets:
+    expired: "Password reset has expired."
+    create:
+      email_sent: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    update:
+      password_reset: "Password has been reset."
