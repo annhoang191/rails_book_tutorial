@@ -10,3 +10,6 @@ user:
     size_50: 50
 session:
   remember_me_true: "1"
+micropost:
+  content:
+    maximum: 140
